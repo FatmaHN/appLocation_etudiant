@@ -14,10 +14,14 @@ class _accueilproState extends State<accueilpro> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      bottomNavigationBar: IconButton(
-        onPressed: () {},
-        icon: const Icon(Icons.abc),
-      ),
+      bottomNavigationBar: new BottomNavigationBar(items: [
+        new BottomNavigationBarItem(
+            icon: const Icon(Icons.home), label: "home"),
+        new BottomNavigationBarItem(
+            icon: const Icon(Icons.notification_add), label: "notification"),
+        new BottomNavigationBarItem(
+            icon: const Icon(Icons.chat), label: "chat"),
+      ]),
     );
   }
 }
