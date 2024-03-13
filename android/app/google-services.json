@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "771044559159",
+    "project_id": "dbapplocationetudiant",
+    "storage_bucket": "dbapplocationetudiant.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:771044559159:android:88af10d0f25685ac43f2b2",
+        "android_client_info": {
+          "package_name": "com.example.location_pour_etudiants"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6Fgz4qY9DFq_MwzhO4hvKWguOVg_pRlo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
