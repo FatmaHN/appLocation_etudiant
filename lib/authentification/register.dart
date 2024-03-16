@@ -32,47 +32,49 @@ class _SignUpPageState extends State<SignUpPage> {
               ),
         },
         home: Scaffold(
-            appBar: AppBar(
-                shape: const RoundedRectangleBorder(
-                  borderRadius: BorderRadius.only(
-                    bottomRight: Radius.circular(20),
-                    bottomLeft: Radius.circular(20),
-                  ),
-                ),
-                title: const Text(
-                  "Sign Up Page",
-                  style: TextStyle(
-                    color: Colors.black87,
-                    fontSize: 22,
-                    fontWeight: FontWeight.bold,
-                  ),
-                ),
-                centerTitle: true,
-                backgroundColor: const Color(0xFF1976D2),
-                actions: [
-                  IconButton(
-                    onPressed: () {},
-                    icon: const Icon(
-                      Icons.help_outline,
-                      color: Colors.white,
+            appBar: PreferredSize(
+                preferredSize: Size.fromHeight(50.0),
+                child: AppBar(
+                    shape: const RoundedRectangleBorder(
+                      borderRadius: BorderRadius.only(
+                        bottomRight: Radius.circular(20),
+                        bottomLeft: Radius.circular(20),
+                      ),
                     ),
-                  ),
-                ], // Couleur pour le AppBar
-                leading: Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: IconButton(
-                    onPressed: () => Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                            builder: (context) => bienvenue1(
-                                  title: '',
-                                ))),
-                    icon: const Icon(
-                      Icons.arrow_back,
-                      color: Colors.white,
+                    title: const Text(
+                      "Sign Up Page",
+                      style: TextStyle(
+                        color: Colors.black87,
+                        fontSize: 22,
+                        fontWeight: FontWeight.bold,
+                      ),
                     ),
-                  ),
-                )),
+                    centerTitle: true,
+                    backgroundColor: const Color(0xFF1976D2),
+                    actions: [
+                      IconButton(
+                        onPressed: () {},
+                        icon: const Icon(
+                          Icons.help_outline,
+                          color: Colors.white,
+                        ),
+                      ),
+                    ], // Couleur pour le AppBar
+                    leading: Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: IconButton(
+                        onPressed: () => Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => bienvenue1(
+                                      title: '',
+                                    ))),
+                        icon: const Icon(
+                          Icons.arrow_back,
+                          color: Colors.white,
+                        ),
+                      ),
+                    ))),
             body: Center(
               child: SingleChildScrollView(
                 padding: EdgeInsets.symmetric(horizontal: 20),

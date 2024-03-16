@@ -122,7 +122,7 @@ class _LoginPageState extends State<Login> {
                     ),
                   ),
                   const SizedBox(height: 20),
-                   TextField(
+                  TextField(
                     style: const TextStyle(
                       fontSize: 14.0, // Taille du texte
                       height: 1.5, // Hauteur de la ligne de texte
@@ -173,13 +173,13 @@ class _LoginPageState extends State<Login> {
                       print('Connexion en cours...');
                     },
                     child: Text('Se connecter',
-                        style: TextStyle( 
-                          color:  Colors.white,
+                        style: TextStyle(
+                          color: Colors.white,
                         )),
                     style: ElevatedButton.styleFrom(
-                      primary:const Color(0xFF1976D2),
-                      padding:
-                          const EdgeInsets.symmetric(horizontal: 30, vertical: 12),
+                      backgroundColor: const Color(0xFF1976D2),
+                      padding: const EdgeInsets.symmetric(
+                          horizontal: 30, vertical: 12),
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(20),
                       ),
@@ -192,7 +192,7 @@ class _LoginPageState extends State<Login> {
                       // Action à effectuer pour la récupération du mot de passe
                       print('Mot de passe oublié ?');
                     },
-                    child:const Text(
+                    child: const Text(
                       'Mot de passe oublié ?',
                       style: TextStyle(
                         color: Colors.black54,

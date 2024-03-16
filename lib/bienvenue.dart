@@ -111,8 +111,10 @@ class _BienvenueState extends State<Bienvenue> {
                 }
               },
               style: ElevatedButton.styleFrom(
-                primary:const Color(0xFFFFA726), // Couleur pour le bouton Suivant
-                padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 12),
+                backgroundColor:
+                    const Color(0xFFFFA726), // Couleur pour le bouton Suivant
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 30, vertical: 12),
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(20),
                 ),
@@ -143,7 +145,8 @@ class _BienvenueState extends State<Bienvenue> {
         duration: const Duration(milliseconds: 300),
         curve: Curves.easeInOut,
         decoration: BoxDecoration(
-          color: _selectedOption == value ? const Color(0xFF1976D2) : Colors.white,
+          color:
+              _selectedOption == value ? const Color(0xFF1976D2) : Colors.white,
           borderRadius: BorderRadius.circular(15),
           boxShadow: _selectedOption == value
               ? [
