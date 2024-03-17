@@ -35,7 +35,7 @@ class MyApp extends StatelessWidget {
               //"/pages/home": (context) => MyApp(),//nom de classe
               "/pages/list": (context) => const Bienvenue(),
             },
-            home: card(
+            home: const typefoyer(
                 //title: 'bienvenue',
                 ),
             initialRoute: '/');
